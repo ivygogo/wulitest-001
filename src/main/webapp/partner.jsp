@@ -12,7 +12,7 @@ Site License URL: https://free-template.co/template-license/
 Website:  https://free-template.co
 Facebook: https://www.facebook.com/FreeDashTemplate.co
 Twitter:  https://twitter.com/Free_Templateco
-RSS Feed: https://feeds.feedburner.com/Free-templateco
+RSS Feed: https://feeds.feedburner.com/Free-templateco 測試
 
 ////////////////////////////////////////////////////////////////
 -->
