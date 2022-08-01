@@ -77,7 +77,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco 測試
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">關於我們</a></li>
                 <li><a href="#properties-section" class="nav-link">房型瀏覽</a></li>
-                <li><a href="/partner.html" class="nav-link ">找室友</a></li>
+                <li><a href="/partner.jsp" class="nav-link ">找室友</a></li>
                 <li><a href="#about-section" class="nav-link">討論區</a></li>
                 <li><a href="login.html" class="nav-link">會員登入</a></li>
                 <li><a href="#contact-section" class="nav-link">註冊</a></li>

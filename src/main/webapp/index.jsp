@@ -82,9 +82,9 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
                     房型瀏覽
                   </a>
                   <ul class="dropdown-menu">
-                    <li ><a class="dropdown-item" href="property-room1.html" id="">房型１:單人Ａ</a></li>
+                    <li ><a class="dropdown-item" href="room01.jsp" id="">房型１:單人Ａ</a></li>
                     <li ><hr class="dropdown-divider"></li>
-                    <li ><a class="dropdown-item" href="#">房型2</a></li>
+                    <li ><a class="dropdown-item" href="room02.jsp">房型2</a></li>
                     <li ><hr class="dropdown-divider"></li>
                     <li ><a class="dropdown-item" href="#">房型3</a></li>
                     <li ><hr class="dropdown-divider"></li>
@@ -97,7 +97,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
                   </ul>
                 
                 </li>
-                <li><a href="partner.html" class="nav-link ">找室友</a></li>
+                <li><a href="partner.jsp" class="nav-link ">找室友</a></li>
                 <li><a href="#about-section" class="nav-link">討論區</a></li>
                 <li><a href="login.html" class="nav-link">會員登入</a></li>
                 <li><a href="#contact-section" class="nav-link">註冊</a></li>
