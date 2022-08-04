@@ -620,7 +620,8 @@ h1, h2, h3, h4, h5,
   z-index: 100;
   width: 100%;
   right: 0;
-  left: 0; }
+  left: 0; 
+}
   .sticky-wrapper .site-navbar {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -649,8 +650,8 @@ h1, h2, h3, h4, h5,
       .sticky-wrapper.is-sticky .site-navbar ul li a.active {
         color: #37cfa2 !important; }
   .sticky-wrapper .shrink {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important; }
+    padding-top: 20px !important;
+    padding-bottom: 20px !important; }
 
 /* Blocks */
 .site-block-wrap {
@@ -668,6 +669,9 @@ h1, h2, h3, h4, h5,
     position: relative; }
   .site-blocks-cover.overlay {
     position: relative; }
+
+    .site-blocks-cover.overlay2 {
+      position: relative; }
   
     .site-blocks-cover.overlay:before {
       z-index: 1;
@@ -724,9 +728,10 @@ h1, h2, h3, h4, h5,
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
     min-height: 400px;
     height: calc(20vh); }
+    
     .site-blocks-cover.inner-page-cover2, .site-blocks-cover.inner-page-cover2 > .container > .row {
-      min-height: 0px;
-      height: calc(10vh); }
+      min-height: 90px;
+      height: calc(11vh); } /*改內頁綠底menu高度*/
 
 
   .site-blocks-cover h1 {
