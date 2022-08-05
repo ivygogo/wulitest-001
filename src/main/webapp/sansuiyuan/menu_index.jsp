@@ -6,15 +6,15 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">山水苑</a></h1>
+            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">this time is for test force push</a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">關於我們</a></li>
-                <li class="nav-item dropdown ">
+                <li><a href="#home-section" class="nav-link">test branch</a></li>
+                <li class="nav-item dropdown ">　　
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     房型瀏覽
                   </a>
