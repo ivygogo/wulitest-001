@@ -589,7 +589,7 @@
     <!-- bootstrap JS
 		============================================ -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- wow JS
+    <!-- wow JS 
 		============================================ -->
     <script src="js/wow.min.js"></script>
     <!-- price-slider JS

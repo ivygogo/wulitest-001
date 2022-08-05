@@ -526,6 +526,7 @@ h1, h2, h3, h4, h5,
           max-width: 70px; }
         .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a:hover {
           text-decoration: none; }
+          
   .site-mobile-menu .site-mobile-menu-body {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -545,6 +546,8 @@ h1, h2, h3, h4, h5,
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
         color: #37cfa2; }
+       .site-mobile-menu .site-nav-wrap a:active {
+        color: white; } 
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }

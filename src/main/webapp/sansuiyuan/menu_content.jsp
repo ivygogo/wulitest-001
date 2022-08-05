@@ -13,11 +13,11 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">關於我們</a></li>
-                <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li class="nav-item dropdown has-children dropdown arrow-top">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     房型瀏覽
                   </a>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown ">
                     <li ><a class="dropdown-item" href="property-room1.html" id="">房型１:單人Ａ</a></li>
                     <li ><hr class="dropdown-divider"></li>
                     <li ><a class="dropdown-item" href="#">房型2</a></li>
@@ -29,11 +29,11 @@
                     <li ><a class="dropdown-item" href="#">房型5</a></li>
                     <li ><hr class="dropdown-divider"></li>
                     <li ><a class="dropdown-item" href="#">房型6</a></li>
-                    
+                    <li ><hr class="dropdown-divider"></li>
                   </ul>
                 
                 </li>
-                <li><a href="roommate.jsp" class="nav-link ">找室友</a></li>
+                <li><a href="/partner.html" class="nav-link ">找室友</a></li>
                 <li><a href="#about-section" class="nav-link">討論區</a></li>
                 <li><a href="login.html" class="nav-link">會員登入</a></li>
                 <li><a href="#contact-section" class="nav-link">註冊</a></li>
