@@ -48,9 +48,10 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 
     <link rel="stylesheet" href="css/aos.css">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<c:url value="css/style.css"/>">
     
   </head>
+
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
   <div class="site-wrap">
@@ -65,7 +66,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
     </div>
    
     <!-- 選單 -->
-    <jsp:include page="menu_index.jsp"/>
+    <jsp:include page="fragment/menu_index.jsp"/>
 
     <!-- banner -->
     <div class="site-block-wrap">
@@ -589,7 +590,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
     </section>
 
     
-   <jsp:include page="footer.jsp"/>
+   <jsp:include page="fragment/footer.jsp"/>
     
     
 

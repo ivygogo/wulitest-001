@@ -1,12 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
       <div class="container">
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">山水苑</a></h1>
+            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.jsp" class="mb-0">山水苑</a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -34,10 +35,18 @@
                   </ul>
                 
                 </li>
-                <li><a href="/partner.html" class="nav-link ">找室友</a></li>
+                <li><a href="roommate.jsp" class="nav-link ">找室友</a></li>
                 <li><a href="#about-section" class="nav-link">討論區</a></li>
-                <li><a href="login.html" class="nav-link">會員登入</a></li>
-                <li><a href="#contact-section" class="nav-link">註冊</a></li>
+                <c:if test="${empty LoginOK}">
+                <li>
+                <a href="login.html" class="nav-link">登入/註冊</a>
+                </li>
+                </c:if>
+                <c:if test="${! empty LoginOK }">
+                <li>
+                <a href="#contact-section" class="nav-link">會員專區</a>
+                </li>
+                </c:if>
               </ul>
             </nav>
           </div>

@@ -66,7 +66,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
     </div>
    
    <!-- 選單 -->
-    <jsp:include page="menu_content.jsp"/>
+    <jsp:include page="fragment/menu_content.jsp"/>
     
       <div class="container">
         <div class="row mb-5 mt-5">
@@ -170,7 +170,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
     
 
     
-    <jsp:include page="footer.jsp"/>
+    <jsp:include page="fragment/footer.jsp"/>
 
   </div> <!-- .site-wrap -->
 
