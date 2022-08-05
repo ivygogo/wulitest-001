@@ -21,7 +21,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Warehouse &mdash; Free Website Template by Free-Template.co</title>
+    <title>${SYSTEM.systemName}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -48,7 +48,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 
     <link rel="stylesheet" href="css/aos.css">
 
-    <link rel="stylesheet" href="<c:url value="css/style.css"/>">
+    <link rel="stylesheet" href="<c:url value='css/style.css'/>">
     
   </head>
 

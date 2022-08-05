@@ -27,11 +27,16 @@ import javax.sql.rowset.serial.SerialClob;
 import javax.xml.bind.DatatypeConverter;
 
 public class GlobalService {
-	public static final String SYSTEM_NAME = "山水苑-租屋首選";
+	public static final String SYSTEM_NAME = "山水苑";
+	public static final String SYSTEM_TITLE = "山水苑-租屋首選";
 	public static final String KEY = "KittySnoopyGarfieldMicky"; // 16, 24, 32
 	
 	public String getSystemName() {
 		return SYSTEM_NAME;
+	}
+	
+	public String getSystemTitle() {
+		return SYSTEM_TITLE;
 	}
 	
 	/* MD5 編碼 */
