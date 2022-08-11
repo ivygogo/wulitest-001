@@ -1,2 +1,6 @@
-package test;public class Test {
+package test;
+
+public class Test {
+  String name;
+  int age;
 }
